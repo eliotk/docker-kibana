@@ -1,13 +1,13 @@
 #
 # Kibana Dockerfile
 #
-# https://github.com/mihaiparv/docker-kibana
+# https://github.com/eliotk/docker-kibana
 #
 
 # Pull base image.
 FROM dockerfile/java:oracle-java7
 
-ENV KIBANA_VERSION 4.0.0-linux-x64
+ENV KIBANA_VERSION 4.0.0-BETA2
 
 # Install Kibana
 RUN \
