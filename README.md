@@ -1,6 +1,6 @@
 ## Kibana Dockerfile
 
-This repository contains a **Dockerfile** for the latest release of [Kibana](http://www.elasticsearch.org/overview/kibana/), which is currently version 4 beta. 
+This repository contains a **Dockerfile** for the latest release of [Kibana](http://www.elasticsearch.org/overview/kibana/), which is currently version 4. 
 
 ### Base Docker Image
 

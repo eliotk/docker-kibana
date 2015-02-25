@@ -10,7 +10,7 @@ FROM dockerfile/java:oracle-java7
 # Install Kibana
 RUN \
   cd /tmp && \
-  wget https://download.elasticsearch.org/kibana/kibana/kibana-4.0.0-BETA2.tar.gz && \
+  wget https://download.elasticsearch.org/kibana/kibana/kibana-4.0.0-linux-x64.tar.gz && \
   tar xvzf kibana-4.0.0-BETA2.tar.gz && \
   rm -f kibana-4.0.0-BETA2.tar.gz && \
   mv /tmp/kibana-4.0.0-BETA2 /kibana
